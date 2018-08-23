@@ -13,13 +13,13 @@
 #Necessary AWS account (with appropriate permissions): access_key
 variable "access_k" {
   type    = "string"
-  default = "AKIAJ54B7ADHQF5FGZ3Q"
+  default = ""
 }
 
 #Necessary AWS account: secret_key
 variable "secret_k" {
   type    = "string"
-  default = "TcARuiC8+yV1WOuTdxla4UQAql199NUGIJm9swvT"
+  default = ""
 }
 
 #Region, where you're going to locate EC2 instances from your ASG
