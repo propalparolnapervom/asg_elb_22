@@ -20,14 +20,14 @@ Time has been spent on research anyway, so eventually I have tried to make some 
 
 1. Verify that Terraform is installed on your server (local PC):
 ```
-https://www.terraform.io/intro/getting-started/install.html
+terraform
 ```
 
 [Install](https://www.terraform.io/intro/getting-started/install.html) it, if needed.
 
 2. Verify that Git is installed on your server (local PC):
 ```
-https://www.terraform.io/intro/getting-started/install.html
+git --version
 ```
 
 [Install](https://git-scm.com/downloads) it, if needed.
@@ -40,7 +40,7 @@ cd <path_to_clone>
 git clone https://github.com/propalparolnapervom/asg_elb_22.git
 ```
 
-5. Edit `vars.ft` file to make its variables up-to-date, having following facts about already pre-defined AWS env:
+5. Edit `vars.tf` file to make its variables up-to-date, having following facts about already pre-defined AWS env:
   - AWS account with appropriate permissions is created;
   - Necessary VPC is created;
   - Necessary Role (IAM) is created;
